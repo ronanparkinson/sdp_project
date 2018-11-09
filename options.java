@@ -1,4 +1,4 @@
-public class options implements Order{
+    public class options implements Order{
     @Override
     public String newMeal() {
         return "no meal";
@@ -25,22 +25,12 @@ public class options implements Order{
     }
 
     @Override
-    public boolean eatin(String choice) {
+    public String eatin(String choice) {
         if (choice == "yes"){
-            return true;
+            return "Have a seat!";
         }
         else {
-            return false;
-        }
-    }
-
-    @Override
-    public boolean takeout(String choice) {
-        if (choice == "yes"){
-            return true;
-        }
-        else {
-            return false;
+            return "Ill put it in a bag.";
         }
     }
 

@@ -1,4 +1,4 @@
-public class Chips implements Order{
+public class Burger implements Order{
     @Override
     public String newMeal() {
         return null;
@@ -6,16 +6,15 @@ public class Chips implements Order{
 
     @Override
     public void justBurger() {
+        System.out.print("Just a burger!");
     }
 
     @Override
     public void justDrink() {
-
     }
 
     @Override
     public void justChips() {
-        System.out.print("Just Chips!");
     }
 
     @Override

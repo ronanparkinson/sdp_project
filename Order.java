@@ -10,9 +10,9 @@ public interface Order {
 
     public void foodMod();
 
-    public boolean eatin(String choice);
+    public String eatin();
 
-    public boolean takeout(String choice);
+    public String takeout();
 
     public void sides();
 }

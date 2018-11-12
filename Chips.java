@@ -1,7 +1,6 @@
 public class Chips implements Order{
     @Override
-    public String newMeal() {
-        return null;
+    public void newMeal() {
     }
 
     @Override
@@ -15,7 +14,7 @@ public class Chips implements Order{
 
     @Override
     public void justChips() {
-        System.out.print("Just Chips!");
+        System.out.println("Just Chips!");
     }
 
     @Override

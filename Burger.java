@@ -1,12 +1,11 @@
 public class Burger implements Order{
     @Override
-    public String newMeal() {
-        return null;
+    public void newMeal() {
     }
 
     @Override
     public void justBurger() {
-        System.out.print("Just a burger!");
+        System.out.println("Just a burger!");
     }
 
     @Override

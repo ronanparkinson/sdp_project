@@ -1,22 +1,23 @@
     public class options implements Order{
+
     @Override
-    public String newMeal() {
-        return "no meal";
+    public void newMeal() {
+
     }
 
     @Override
-    public String justBurger() {
-        return "no burger";
+    public void justBurger() {
+
     }
 
     @Override
-    public String justDrink() {
-        return "no drink";
+    public void justDrink() {
+
     }
 
     @Override
-    public String justChips() {
-        return "no chips";
+    public void justChips() {
+
     }
 
     @Override
@@ -25,16 +26,16 @@
     }
 
     @Override
-    public String eatin(String choice) {
-        if (choice == "yes"){
+    public String eatin() {
             return "Have a seat!";
-        }
-        else {
-            return "Ill put it in a bag.";
-        }
     }
 
-    @Override
+        @Override
+        public String takeout() {
+            return "I'll put it in a bag!";
+        }
+
+        @Override
     public void sides() {
 
     }

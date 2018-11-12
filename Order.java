@@ -1,12 +1,12 @@
 public interface Order {
 
-    public String newMeal();
+    public void newMeal();
 
-    public String justBurger();
+    public void justBurger();
 
-    public String justDrink();
+    public void justDrink();
 
-    public String justChips();
+    public void justChips();
 
     public void foodMod();
 

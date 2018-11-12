@@ -1,8 +1,7 @@
 public class Drink implements Order{
 
     @Override
-    public String newMeal() {
-        return null;
+    public void newMeal() {
     }
 
     @Override
@@ -12,7 +11,7 @@ public class Drink implements Order{
 
     @Override
     public void justDrink() {
-        System.out.print("Just a cola!");
+        System.out.println("Just a cola!");
     }
 
     @Override

@@ -1,22 +1,21 @@
 public class meal implements Order{
     @Override
-    public String newMeal() {
-        return "Burger, chips and drink added to order!";
+    public void newMeal() {
+        System.out.println("Burger, chips and drink added to order!");
     }
 
     @Override
-    public String justBurger() {
-        return "Just a burger";
+    public void justBurger() {
     }
 
     @Override
-    public String justDrink() {
-        return "Just a drink";
+    public void justDrink() {
+
     }
 
     @Override
-    public String justChips() {
-        return "Just a cola";
+    public void justChips() {
+
     }
 
     @Override
@@ -25,14 +24,15 @@ public class meal implements Order{
     }
 
     @Override
-    public boolean eatin(String choice) {
-        return false;
+    public String eatin() {
+        return null;
     }
 
     @Override
-    public boolean takeout(String choice) {
-        return false;
+    public String takeout() {
+        return null;
     }
+
 
     @Override
     public void sides() {
